@@ -55,6 +55,78 @@ public class Staff {
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String staffPassword;
 
-    @Column(name = "staff_role")
+    public int getStaffId() {
+		return staffId;
+	}
+
+	public void setStaffId(int staffId) {
+		this.staffId = staffId;
+	}
+
+	public String getStaffName() {
+		return staffName;
+	}
+
+	public void setStaffName(String staffName) {
+		this.staffName = staffName;
+	}
+
+	public String getPhotoUrl() {
+		return photoUrl;
+	}
+
+	public void setPhotoUrl(String photoUrl) {
+		this.photoUrl = photoUrl;
+	}
+
+	public String getStaffEmail() {
+		return staffEmail;
+	}
+
+	public void setStaffEmail(String staffEmail) {
+		this.staffEmail = staffEmail;
+	}
+
+	public String getStaffMobile() {
+		return staffMobile;
+	}
+
+	public void setStaffMobile(String staffMobile) {
+		this.staffMobile = staffMobile;
+	}
+
+	public String getStaffGender() {
+		return staffGender;
+	}
+
+	public void setStaffGender(String staffGender) {
+		this.staffGender = staffGender;
+	}
+
+	public String getStaffUsername() {
+		return staffUsername;
+	}
+
+	public void setStaffUsername(String staffUsername) {
+		this.staffUsername = staffUsername;
+	}
+
+	public String getStaffPassword() {
+		return staffPassword;
+	}
+
+	public void setStaffPassword(String staffPassword) {
+		this.staffPassword = staffPassword;
+	}
+
+	public String getStaffRole() {
+		return staffRole;
+	}
+
+	public void setStaffRole(String staffRole) {
+		this.staffRole = staffRole;
+	}
+
+	@Column(name = "staff_role")
     private String staffRole;
 }
