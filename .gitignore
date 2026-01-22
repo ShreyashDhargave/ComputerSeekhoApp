@@ -17,7 +17,6 @@ target/
 # ========================
 .apt_generated
 .classpath
-.factorypath
 .project
 .settings/
 .springBeans
@@ -29,7 +28,9 @@ target/
 .idea
 *.iws
 *.iml
+*.iws
 *.ipr
+out/
 
 # ========================
 # NetBeans
